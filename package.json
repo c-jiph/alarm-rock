@@ -1,0 +1,23 @@
+{
+  "name": "alarm-rock",
+  "version": "1",
+  "description": "An extremely heavy alarm clock",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/c-jiph/alarm-rock",
+  "keywords": [],
+  "author": "Jacob Bower",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "@babel/preset-flow": "^7.0.0",
+    "flow-bin": "^0.92.0"
+  },
+  "dependencies": {
+    "bigtext": "^1.0.1",
+    "grunt": "^1.0.3",
+    "jquery": "^3.3.1",
+    "electron": "^4.0.3"
+  }
+}
