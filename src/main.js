@@ -11,7 +11,7 @@ app.commandLine.appendSwitch('autoplay-policy', 'no-user-gesture-required');
 app.on('ready', () => {
   mainWindow = new BrowserWindow({width:1920, height:1080});
   mainWindow.loadFile('src/index.html');
-  //mainWindow.setFullScreen(true);
+  mainWindow.setFullScreen(true);
   mainWindow.on('closed', () => {
     mainWindow = null;
   });

@@ -1,9 +1,14 @@
 body {
-  background-color: black;
-  color: palegreen;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
 }
 
 .content {
+  background-color: black;
+  color: palegreen;
   height: 10;
   font-family: 'Finger Paint';
+  align-content: center;
+  text-align: center;
 }
