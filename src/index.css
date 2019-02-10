@@ -2,9 +2,11 @@ body {
   overflow: hidden;
   padding: 0;
   margin: 0;
+  height: 100%;
 }
 
 .content {
+  height: 100%;
   background-color: black;
   color: palegreen;
   height: 10;
