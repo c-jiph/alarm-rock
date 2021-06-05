@@ -7,13 +7,16 @@
     <title>Alarm Rock</title>
   </head>
   <body>
+    
+    <!-- This clowntownery allows us to include jQuery plugins -->
     <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
-      <script src="../node_modules/jquery/dist/jquery.js"></script>
-      <script src="../node_modules/bigtext/dist/bigtext.js"></script>
-      <script>if (window.module) module = window.module;</script>
-    <div id='content' class='content'/>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script>if (window.module) module = window.module;</script>
+
+    <div id='content' class='content_class'/>
+
     <script>
-      require('./renderer.js')
+      require('../lib/renderer.js')
     </script>
   </body>
 </html>

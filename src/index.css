@@ -1,15 +1,35 @@
-body {
+body, html {
   overflow: hidden;
   padding: 0;
   margin: 0;
   height: 100%;
+  cursor: none;
 }
 
-.content {
-  height: 100%;
-  background-color: black;
+.timetext_class {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 700px;
   color: palegreen;
-  height: 10;
+}
+
+.dots_class {
+  animation: blinkdots 2s infinite steps(1);
+  color: inherit;
+}
+
+@keyframes blinkdots {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;} 
+}
+
+.content_class {
+  height: 100%;
+  width: 100%;
+  background-color: black;
   font-family: 'Finger Paint';
   align-content: center;
   text-align: center;

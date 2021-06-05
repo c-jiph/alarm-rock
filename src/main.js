@@ -1,6 +1,14 @@
 // @flow
 
 const {app, BrowserWindow} = require('electron');
+const path = require('path');
+
+require('electron-reload')(
+  path.join(__dirname, '..', 'lib'),
+  {
+    electron: path.join(__dirname, '..', 'node_modules', '.bin', 'electron')
+  },
+);
 
 let mainWindow = null;
 
